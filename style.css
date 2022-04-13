@@ -1,0 +1,69 @@
+.headertop {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.headerlogo {
+  /*making circle logo for more stylish look*/
+  border-style: double;
+  border-color: #E5E7EB;
+  border-radius: 50%;
+  width: 230px;
+  height: 150px;
+}
+
+a {
+  /* this removes the line under links */
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.headertopleft, .headertopright {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.maincontent {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+  
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+  
+.altcontainer {
+  max-width: 200px;
+}
+  
+.maincontainerimages {
+  width: 100px;
+  height: 100px;
+}
+  
+.maintitle {
+  font-size: 36px; 
+  font-weight: bolder;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+  
+.text {
+  width: 200px;
+  height: auto;
+}
