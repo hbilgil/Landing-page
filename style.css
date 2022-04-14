@@ -27,21 +27,20 @@ body {
 
 .headerlogo {
   /*making circle logo for more stylish look*/
-  border-style: solid;
-  border-color: #E5E7EB;
+  background-color: white;
   border-radius: 50%;
-  width: 153px;
-  height: 100px;
+  width: 120px;
+  height: 90px;
 }
 
-a {
+.headera {
   /* this removes the line under links */
   text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
 }
 
-a:hover {
+.headera:hover {
   color: grey;
 }
 
@@ -68,13 +67,22 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 40px;
 }
 
 .welcometext {
-  font-size: 48px; 
+  font-size: 36px;
   font-weight:800;
   color:#F9FAF8;
+}
+
+.welcometexta {
+  color: white;
+  text-decoration: none;
+}
+
+.welcometexta:hover {
+  color: black;
 }
 
 .welcometextspan {
@@ -82,11 +90,11 @@ ul {
   font-weight: normal;
   color: #E5E7EB;
   display: block;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .headercontentbutton {
-  background-color: #3882F6;
+  background-color: #f2a900;
   height: 35px;
   width: 120px;
   font-size:medium;
@@ -144,6 +152,7 @@ ul {
 
 .maincontenta {
   color: #1F2937;
+  text-decoration: none;
 }
 
 .maincontenta:hover {
@@ -192,6 +201,7 @@ p {
 }
 
 .contacttext {
+  font-size: 30px;
   color: white;
   font-weight: 800;
   display: flex;
@@ -199,6 +209,7 @@ p {
 }
 
 .contactspan {
+  font-size: 16px;
   font-weight: normal; 
   color: #E5E7EB;
   margin-top: 5px;
@@ -216,6 +227,14 @@ p {
   color: white;
 }
 
+.contacta {
+  color: white;
+  text-decoration: none;
+}
+
+.contacta:hover {
+  color: black;
+}
 
 .footer {
   text-align: center;
