@@ -136,11 +136,20 @@ ul {
 }
   
 .text {
+  margin-top: 10px;
   width: 200px;
   height: auto;
   margin-bottom: 100px;
 }
 
+.maincontenta {
+  color: #1F2937;
+}
+
+.maincontenta:hover {
+  color: #3882F6;
+  font-weight: bold;
+}
 
 .quotescontainer {
   background-color: #E5E7EB;
